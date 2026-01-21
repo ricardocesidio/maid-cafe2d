@@ -37,30 +37,41 @@ img {
 
 /* ___________HOME PAGE MENU____________ */
 
-  nav {
+header {
+    background-color: rgb(47, 252, 255);
+    justify-content: center;
+    width: 100vw;
+}
+
+header > img {
+    display: flex;
+    padding: 10px;
+    max-width: 25%;
+    max-height: 25%;
+    margin: auto;
+}
+
+
+
+  nav.menu {
+
     height: 5vh;
     width: 100vw;
-    padding: 10px;
+    padding: 12px;
 
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background-color: rgb(11, 129, 90);
+    flex-flow: row nowrap;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    background-color: rgb(229, 192, 252);
+    align-items: center;
   }
     nav > ul > a {
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
         color: white;
-        background-color: rgb(91, 130, 137);
-        
-        
-
-        display: flexbox;
-        flex-flow: row nowrap;
-        justify-content: space-evenly;
-        justify-items: center;
-        text-decoration: none;
-        margin: 50px;
+        background-color: rgb(232, 158, 250);
+        margin: 70px;
     }
 
     nav > ul > a:hover {
@@ -68,26 +79,43 @@ img {
         background-color: azure;
     }
 
-        .img {
-            background-color: aquamarine;
-            height: 50vh;
-            width: 100vw;
+        body {
+            background-color: rgb(19, 113, 195);
+
+        }
+        article.welc {
             display: flex;
+            flex-direction: row wrap;
             justify-content: center;
-
-        }
-
-        .welc {
-            background-color: rgb(255, 255, 255);
-        }
-
-        div > h1 {
-            background-color: chartreuse;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 4em;
-            text-align: center;
-            padding: 0px;
             
+        }
+
+        * {
+            font-family: "Pixelify Sans", sans-serif;
+            text-size-adjust: 1em;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        section {
+            background-color: black;
+            width: 70%;
+            display: block;
+            flex-direction: row nowrap;
+            justify-content: center;
+            margin: auto;
+        }
+
+        section > article > h1 {
+            margin-top: 5px;
+            width: 100%;
+            background-color: rgb(229, 192, 252);
+            color: rgb(255, 255, 255);
+            font-size: 7em;
+            text-align: center;
+            padding: -12px;
+            line-height: 1.2em;
+
         }
 
 
